@@ -22,7 +22,7 @@ class Item:
         self.price = self.price * self.pay_rate
     
     def __repr__(self):
-        return 'Item'
+        return f"Item('{self.name}', {self.price}, {self.quantity})"
 
 item1 = Item("Phone", 100, 1)
 item2 = Item("Laptop", 1000, 3)
